@@ -25,7 +25,7 @@
     </exec>
 	<exec executable="cmd">
 		<arg value="/c"/>
-		<arg value="adb install /platforms/android/build/outputs/apk/android-debug.apk"/> 
+		<arg value="adb install C:/Users/IBM_ADMIN/.jenkins/jobs/AntProject/workspace/platforms/android/build/outputs/apk/android-debug.apk"/> 
     </exec>
   </target>
 
