@@ -23,6 +23,10 @@
 		<arg value="/c"/>
 		<arg value="cordova build android"/> 
     </exec>
+	<exec executable="cmd">
+		<arg value="/c"/>
+		<arg value="adb install /platforms/android/build/outputs/apk/android-debug.apk"/> 
+    </exec>
   </target>
 
 
