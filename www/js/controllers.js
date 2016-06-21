@@ -4,7 +4,7 @@ angular.module('starter.controllers', [])
     $scope.data = {};
 
     $scope.login = function() {
-		
+		alert("Connecting to the server....");
 		$http.post("http://localhost:8124")
 			.success(function(data){
 				
