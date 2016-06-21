@@ -12,7 +12,7 @@ angular.module('starter.controllers', [])
 				
 			})
 			.error(function (error){
-				alert("Error block);
+				alert("Error block");
 				
 			});       
     }
